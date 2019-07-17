@@ -1,0 +1,14 @@
+{
+    "arch": "resnet50",
+    "data":"/scratch/engstrom_scratch/imagenet",
+    "epochs":110,
+    "batch_size":256,
+    "lr":0.1,
+    "workers":32,
+    "momentum":0.9,
+    "weight_decay":1e-4,
+    "step_lr": 30
+}
+
+
+

@@ -1,0 +1,12 @@
+{
+    "data":"",
+    "epochs":350,
+    "batch_size":64,
+    "lr":0.01,
+    "momentum":0.9,
+    "weight_decay":0.0005,
+    "workers":8,
+    "lr_schedule":[[0, 0.1],
+                   [50, 0.01],
+                   [100, 0.001]]
+}

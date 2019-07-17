@@ -1,0 +1,13 @@
+{
+    "arch": "resnet18",
+    "data":"/data/theory/robustopt/aajay/datasets/non_robust_cifar/",
+    "epochs":205,
+    "batch_size":128,
+    "lr":0.1,
+    "momentum":0.9,
+    "weight_decay":0.0005,
+    "workers":8,
+    "custom_schedule":[[0, 0.1],
+                   [100, 0.01],
+                   [150, 0.001]]
+}

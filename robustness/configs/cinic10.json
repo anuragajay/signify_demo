@@ -1,0 +1,13 @@
+{
+    "arch": "resnet50",
+    "data":"/data/theory/robustopt/datasets/cinic10",
+    "epochs":350,
+    "batch_size":256,
+    "lr":0.1,
+    "momentum":0.9,
+    "weight_decay":0.0005,
+    "workers":8,
+    "lr_schedule":[[0, 0.1],
+                   [30, 0.01],
+                   [60, 0.001]]
+}

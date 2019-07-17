@@ -1,0 +1,7 @@
+{
+    "adv_eval":0,
+    "silent":0,
+    "evaluate":0,
+    "save_checkpoint_iters":-1,
+    "log_iters":4
+}
